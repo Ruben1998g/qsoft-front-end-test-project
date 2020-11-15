@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Тестовое задание</title>
+  <meta name="viewport" content="width=divice-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normilize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+<header class="header">
+  <section class="header__info info">
+    <h2 class="visually-hidden">Хедер сайта</h2>
+    <div class="info__wrap">
+      <img src="img/logo.png" alt="Логотип" class="info__logo">
+      <input type="search" class="info__search" placeholder="Найти на сайте...">
+      <div class="info__contacts">
+        <h3 class="info__phone">8 (999) 666-00-13</h3>
+        <p class="info__time">Звоните с 8 до 23!</p>
+      </div>
+      <button class="info__sign-in">Войти</button>
+    </div>
+  </section>
+
+  <section class="header__nav nav">
+    <h2 class="visually-hidden">Навигация по сайту</h2>
+    <nav class="nav__wrap">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#" class="nav__link">Акции</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Товары</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Доставка и оплата</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Гарантия</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">О нас</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+</header>
+
+<main class="main">
+  <section class="main__goods goods">
+    <h2 class="visually-hidden">Популярные товары</h2>
+    <div class="goods__wrap">
+      <h2 class="goods__header-title">Популярные товары</h2>
+      <ul class="goods__list">
+        <li class="goods__item action">
+          <div class="goods__offers">
+            <span class="goods__action">Акция</span>
+            <span class="goods__hit">Хит</span>
+            <span class="goods__best-price">Лучшая цена</span>
+          </div>
+            <img src="img/good-1.jpg" class="goods__photo" alt="товар 1">
+            <h3 class="goods__titie">Цветок, который стоит на столе, такой загадочный.</h3>
+            <p class="goods__description">А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя</p>
+            <div class="goods__footer">
+              <div class="goods__price">
+                <div class="goods__price-wrap">
+                  <p class="goods__price-before">1 499 ₽</p>
+                  <p class="goods__price-after">799 ₽</p>
+               </div>
+              </div>
+              <button class="goods__add"></button>
+            </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__offers">
+            <span class="goods__action">Акция</span>
+          </div>
+            <img src="img/good-2.jpg" class="goods__photo" alt="товар 2">
+            <h3 class="goods__titie">Набор юного инстаблогера</h3>
+            <p class="goods__description">
+              Посмотрите на него.
+              Он покажет всем какой вы классный и творческий. Главное не забыть посидеть на подоконнике с бокаль...
+            </p>
+            <div class="goods__footer">
+              <div class="goods__price">
+                 <div class="goods__price-wrap">
+                    <p class="goods__price-after">13 666 ₽</p>
+                 </div>
+              </div>
+              <button class="goods__add"></button>
+            </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__offers">
+            <span class="goods__hit">Хит</span>
+          </div>
+            <img src="img/good-3.jpg" class="goods__photo" alt="товар 3">
+            <h3 class="goods__titie">Лампа. Просто лампа.</h3>
+            <p class="goods__description">
+              В паре с загадочным цветком добавит загадочности вашему интерьеру
+            </p>
+            <div class="goods__footer">
+              <div class="goods__price">
+                <div class="goods__price-wrap">
+                  <p class="goods__price-before">2 690 ₽</p>
+                  <p class="goods__price-after">1 789 ₽</p>
+                </div>
+              </div>
+              <button class="goods__add"></button>
+            </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__offers">
+            <span class="goods__action">Акция</span>
+            <span class="goods__hit">Хит</span>
+          </div>
+            <img src="img/good-4.jpg" class="goods__photo" alt="товар 4">
+            <h3 class="goods__titie">
+              Классные деревянные минималистичные часы с...
+            </h3>
+            <p class="goods__description">
+              Все в ту же копилку загдочности вашего интерьера и вашей натуры
+            </p>
+            <div class="goods__footer">
+              <div class="goods__price">
+                <div class="goods__price-wrap">
+                  <p class="goods__price-before">2 190 ₽</p>
+                  <p class="goods__price-after">1 899 ₽</p>
+                </div>
+              </div>
+              <button class="goods__add"></button>
+            </div>
+        </li>
+      </ul>
+      <a href="#" class="goods__watch">Смотреть каталог</a>
+
+    </div>
+  </section>
+  <section class="main__news news">
+    <h2 class="visually-hidden">Новости</h2>
+    <div class="news__wrap">
+      <h2 class="news__header-title">Новости компании</h2>
+      <ul class="news__list">
+        <li class="news__item">
+          <a class="news__link">
+            <h2 class="news__title">
+              Цветок, который стоит на столе, такой загадочный.
+            </h2>
+            <p class="news__description">
+              А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя
+            </p>
+          </a>
+        </li>
+        <li class="news__item">
+          <a class="news__link">
+            <h2 class="news__title">Длинный заголовок большой новости</h2>
+            <p class="news__description">А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя</p>
+          </a>
+        </li>
+        <li class="news__item">
+          <a class="news__link">
+            <h2 class="news__title">
+               Длинный заголовок большой новости
+            </h2>
+            <p class="news__description">
+              А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя
+            </p>
+          </a>
+        </li>
+        <li class="news__item">
+          <a class="news__link">
+            <h2 class="news__title">
+              Цветок, который стоит на столе, такой загадочный.
+            </h2>
+            <p class="news__description">
+              А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя
+            </p>
+          </a>
+        </li>
+      </ul>
+      <a href="#" class="news__watch">Смотреть все новости</a>
+    </div>
+  </section>
+  <section class="main__brands brands">
+    <h2 class="visually-hidden">Наши партнеры</h2>
+    <div class="brands__wrap">
+      <h2 class="brands__header-title">Наши партнёры</h2>
+      <ul class="brands__list">
+        <li class="brands__item">
+          <a class="brands__link">
+            <img src="img/brands-1.png" alt="бренд 1" class="brands__logo">
+          </a>
+        </li>
+        <li class="brands__item">
+          <a class="brands__link">
+            <img src="img/brands-2.png" alt="бренд 2" class="brands__logo">
+          </a>
+        </li>
+        <li class="brands__item">
+          <a class="brands__link">
+            <img src="img/brands-3.png" alt="бренд 3" class="brands__logo">
+          </a>
+        </li>
+        <li class="brands__item">
+          <a class="brands__link">
+            <img src="img/brands-4.png" alt="бренд 4" class="brands__logo">
+          </a>
+        </li>
+        <li class="brands__item">
+          <a class="brands__link">
+            <img src="img/brands-5.png" alt="бренд 5" class="brands__logo">
+          </a>
+        </li>
+        <li class="brands__item">
+          <a class="brands__link">
+            <img src="img/brands-6.png" alt="бренд 6" class="brands__logo">
+          </a>
+        </li>
+        <li class="brands__item">
+          <a class="brands__link">
+            <img src="img/brands-7.png" alt="бренд 7" class="brands__logo">
+          </a>
+        </li>
+      </ul>
+  </div>
+  </section>
+  
+</main>
+
+<footer class="footer">
+  <div class="footer__wrap">
+    <section class="footer__contacts contacts">
+      <h2 class="visually-hidden">Контакты</h2>
+      <a href="#" class="contacts__logo">
+        <span class="contacts__logo-photo"></span>
+      </a>
+      <ul class="contacts__social-list">
+        <li class="contacts__social-item">
+          <a class="contacts__social-link"></a>
+        </li>
+        <li class="contacts__social-item">
+          <a class="contacts__social-link"></a>
+        </li>
+      </ul>
+      <ul class="contacts__nav-list">
+        <li class="contacts__nav-item">
+          <a href="#" class="contacts__nav__link">Правила</a>
+        </li>
+        <li class="contacts__nav-item">
+          <a href="#" class="contacts__nav__link">Документы</a>
+        </li>
+        <li class="contacts__nav-item">
+          <a href="#" class="contacts__nav__link">
+            Политика конфиденциальности
+          </a>
+        </li>
+      </ul>
+      <button class="contacts__call">Заказать звонок</button>
+    </section>
+  </div>
+</footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
